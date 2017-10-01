@@ -27,6 +27,7 @@ public class RestAPI  {
         return Response.status(Response.Status.OK).entity("Hello User FormParam : " + nama).build();
     }
 
+    //belajar requestbody dengan JSON
     @POST
     @Path("/user/json")
     @Consumes(MediaType.APPLICATION_JSON)
