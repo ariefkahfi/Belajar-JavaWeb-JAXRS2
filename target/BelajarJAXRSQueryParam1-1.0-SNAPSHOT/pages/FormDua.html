@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Dua</title>
+</head>
+<body>
+
+    <h5>Ini Form Dua (GET)</h5>
+
+    <form ng-controller="formDuaController">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" ng-model="nama" placeholder="Nama anda"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" style="width:100%;" ng-click="submitNama()" value="Submit Nama"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

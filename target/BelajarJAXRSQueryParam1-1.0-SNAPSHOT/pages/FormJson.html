@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Json</title>
+</head>
+<body>
+    <h5>Ini Form Json (POST Ajax Request)</h5>
+    <form ng-controller="formJsonController">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" ng-model="nama" placeholder="Nama Anda"/></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" ng-model="gender" value="Male"/>Male</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><input type="radio" ng-model="gender" value="Female"/>Female</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" style="width: 100%;" value="Submit Data" ng-click="submitData()"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

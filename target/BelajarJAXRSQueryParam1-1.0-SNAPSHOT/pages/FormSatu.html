@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Satu</title>
+</head>
+<body>
+
+    <h5>Ini Form Satu (POST ajax request)</h5>
+
+    <form ng-controller="formSatuController">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" ng-model="nama" placeholder="Nama anda"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" style="width: 100%;" value="Submit Nama" ng-click="submitNama()"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
